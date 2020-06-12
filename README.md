@@ -1,6 +1,6 @@
 # trafficCar_ssd
 run:\
-python predict_video.py --model weights/frozen_inference_graph_car_front_rear.pb --labels classes.pbtxt --input input/carTraffic.mp4 --output output/output.avi --num-classes 2
+```python predict_video.py --model weights/frozen_inference_graph_car_front_rear.pb --labels classes.pbtxt --input input/carTraffic.mp4 --output output/output.avi --num-classes 2```
 
 **It is necessary to create a symbolic link from the object_detection folder in the tensorflow library**
 
